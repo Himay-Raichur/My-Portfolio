@@ -14,11 +14,6 @@ const highlights = [
       "Optimizing for speed and delivering lightning-fast user experiences.",
   },
   {
-    icon: Users,
-    title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
-  },
-  {
     icon: Lightbulb,
     title: "Innovation",
     description:
@@ -40,7 +35,7 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+             Designing and building modern web experiences,
               <span className="font-serif italic font-normal text-white">
                 {" "}
                 one component at a time.
@@ -49,30 +44,21 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+I'm a passionate software developer and third-year undergraduate at SNIST with a strong 
+interest in building modern web applications. What 
+began as curiosity about how the web works has grown into hands-on experience developing interactive and user-focused digital solutions using modern frontend technologies.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+ I specialize in React, Next.js, and TypeScript, building responsive web applications ranging from sleek landing pages to feature-rich full-stack projects. I focus on writing clean, maintainable code while paying close attention to performance, usability, and overall user experience.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+When I'm not coding, I enjoy exploring new technologies, strengthening my problem-solving skills through data structures and algorithms, and continuously improving as a developer by learning and building new projects.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "I aim to create digital experiences that are not just functional, but thoughtfully designed — products users enjoy and developers can easily build upon."
               </p>
             </div>
           </div>

@@ -2,41 +2,59 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
-    description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "E-Commerce Platform",
-    description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "AI Writing Assistant",
-    description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "Project Management Tool",
-    description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+    title: "Glow Beauty Hub",
+    description: "A modern beauty and skincare product showcase website built with React. Features a clean UI, product insights pages, reusable components, and smooth navigation for an engaging shopping-style experience. Designed with responsive layout and optimized for performance.",
     image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+    tags: ["React", "JavaScript", "Vite", "Tailwind CSS", "Responsive Design"],
+    link: "https://glow-beauty-hub.vercel.app/",
+    github: "#",
+  },
+  {
+    title: "Expense Tracker - Full Stack Finance App",
+    description:
+    "A responsive expense tracking web application with secure authentication, allowing users to manage daily income and expenses efficiently. Features login/signup system, protected routes, expense categorization, and a clean dashboard UI for financial overview.",
+    image: "/projects/project5.png",
+    tags: ["React", "Node.js", "Express", "MongoDB", "JWT Authentication", "Tailwind CSS"],
     link: "#",
     github: "#",
   },
+  {
+    title: "FocusFuel - Smart Hydration Tracker",
+    description:
+      "A productivity-focused Chrome Extension that reminds users to drink water at customizable intervals. Tracks daily progress, streaks, and weekly analytics with visual charts. Includes goal tracking, strict mode for discipline, and persistent storage using Chrome APIs.",
+    image: "/projects/project5.png",
+    tags: ["Chrome Extension", "JavaScript", "Chrome Storage API", "Chart.js", "UI/UX"],
+    link: "#",
+    github: "https://github.com/Himayzy/FocusFuel-Extension",
+  },
+  {
+  title: "UI Time Machine – Interactive Design Evolution Platform",
+  description:
+    "An interactive scroll-driven web experience showcasing the evolution of user interface design from 2010 to 2030. As users scroll, the UI dynamically transforms across different design eras, demonstrating modern frontend architecture, smooth state transitions, and responsive component systems.",
+    image: "/projects/project-7.png",
+  tags: ["React", "Vite", "JavaScript", "Tailwind CSS", "Scroll Animations", "Component Architecture"],
+  link: "https://ui-time-machine-nine.vercel.app/",
+  github: "https://github.com/Himayzy/ui-time-machine",
+},
+  {
+    title: "Analytics Dashboard",
+    description:
+      "Developed a dynamic analytics dashboard displaying revenue trends, user activity, and engagement metrics. Connected the system with n8n to automate data updates and simulate real-time financial changes. Focused on intuitive data visualization, responsive design, and scalable backend architecture.",
+    image: "/projects/project1.png",
+    tags: ["React", "Tailwindcss"],
+    link: "#",
+    github: "#",
+  },
+  {
+    title: "AI Quiz Platform",
+    description:
+      "Built a full-stack AI-powered quiz application that generates quizzes dynamically and tracks user performance in real time.",
+    image: "/projects/project3.png",
+    tags: ["Next.js (App Router)", "React", "Drizzle ORM", "Tailwind CSS", "PostgreSQL", "AI API integration"],
+    link: "#",
+    github: "#",
+  },
+
 ];
 
 export const Projects = () => {

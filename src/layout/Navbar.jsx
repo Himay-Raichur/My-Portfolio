@@ -6,7 +6,6 @@ const navLinks = [
   { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
-  { href: "#testimonials", label: "Testimonials" },
 ];
 
 export const Navbar = () => {
@@ -34,7 +33,7 @@ export const Navbar = () => {
           href="#"
           className="text-xl font-bold tracking-tight hover:text-primary"
         >
-          PM<span className="text-primary">.</span>
+          HR<span className="text-primary">.</span>
         </a>
 
         {/* Desktop Nav */}
@@ -54,7 +53,9 @@ export const Navbar = () => {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Button size="sm">Contact Me</Button>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <Button size="sm">My Resume</Button>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -81,9 +82,9 @@ export const Navbar = () => {
               </a>
             ))}
 
-            <Button onClick={() => setIsMobileMenuOpen(false)}>
-              Contact Me
-            </Button>
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)}>
+              <Button>Download Resume</Button>
+            </a>
           </div>
         </div>
       )}

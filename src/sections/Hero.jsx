@@ -10,24 +10,13 @@ import {
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
-  "React",
-  "Next.js",
+  "React (Vite)",
   "TypeScript",
   "Node.js",
-  "GraphQL",
-  "PostgreSQL",
   "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
-  "Vercel",
   "Tailwind CSS",
-  "Prisma",
-  "Jest",
-  "Cypress",
   "Figma",
   "Git",
-  "GitHub Actions",
 ];
 
 export const Hero = () => {
@@ -36,7 +25,7 @@ export const Hero = () => {
       {/* Bg */}
       <div className="absolute inset-0">
         <img
-          src="/hero-bg.jpg"
+          src="/green1.jpg"
           alt="Hero image"
           className="w-full h-full object-cover opacity-40"
         />
@@ -69,7 +58,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                Senior Undergraduate
               </span>
             </div>
 
@@ -85,30 +74,20 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+Hi, I'm Himay Raichur — a pre-final year undergraduate at SNIST passionate about building modern web applications using React, Next.js, and TypeScript. I focus on writing clean, scalable code and creating smooth user experiences.
               </p>
             </div>
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-              <Button size="lg">
-                Contact Me <ArrowRight className="w-5 h-5" />
-              </Button>
-              <AnimatedBorderButton>
-                <Download className="w-5 h-5" />
-                Download CV
-              </AnimatedBorderButton>
             </div>
 
             {/* Social Links */}
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
-                { icon: Twitter, href: "#" },
+                { icon: Github, href: "https://github.com/Himayzy" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/himay-raichur-39810b366/" },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -132,9 +111,9 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
+                  src="/profile.jpg"
                   alt="Pedro Machado"
-                  className="w-full aspect-[4/5] object-cover rounded-2xl"
+                  className="w-full aspect-[4/6] object-cover rounded-2xl"
                 />
 
                 {/* Floating Badge */}
@@ -147,10 +126,10 @@ export const Hero = () => {
                   </div>
                 </div>
                 {/* Stats Badge */}
-                <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
-                  <div className="text-xs text-muted-foreground">
-                    Years Exp.
+                <div className="absolute -top-4 -left-4 glass rounded-xl px-3 py-2 animate-float animation-delay-500">
+                  <div className="text-1xl font-bold text-primary">3rd year</div>
+                  <div className="text-xs text-muted-foreground">undergrad
+
                   </div>
                 </div>
               </div>
