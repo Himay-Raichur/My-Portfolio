@@ -86,7 +86,7 @@ Hi, I'm Himay Raichur — a pre-final year undergraduate at SNIST passionate abo
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "https://github.com/Himayzy" },
+                { icon: Github, href: "https://github.com/Himay-Raichur" },
                 { icon: Linkedin, href: "https://www.linkedin.com/in/himay-raichur-39810b366/" },
               ].map((social, idx) => (
                 <a
