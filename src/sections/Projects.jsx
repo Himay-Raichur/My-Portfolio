@@ -13,7 +13,7 @@ const projects = [
     title: "Expense Tracker - Full Stack Finance App",
     description:
     "A responsive expense tracking web application with secure authentication, allowing users to manage daily income and expenses efficiently. Features login/signup system, protected routes, expense categorization, and a clean dashboard UI for financial overview.",
-    image: "/projects/project5.png",
+    image: "/projects/project9.png",
     tags: ["React", "Node.js", "Express", "MongoDB", "JWT Authentication", "Tailwind CSS"],
     link: "#",
     github: "#",
