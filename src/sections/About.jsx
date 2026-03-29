@@ -49,7 +49,7 @@ interest in building modern web applications. What
 began as curiosity about how the web works has grown into hands-on experience developing interactive and user-focused digital solutions using modern frontend technologies.
               </p>
               <p>
- I specialize in React, Next.js, and TypeScript, building responsive web applications ranging from sleek landing pages to feature-rich full-stack projects. I focus on writing clean, maintainable code while paying close attention to performance, usability, and overall user experience.
+ I specialize in building end-to-end web applications using React, Next.js, and Node.js, combining intuitive frontend design with robust backend systems. From sleek landing pages to full-stack applications, I focus on writing clean, scalable code while optimizing performance, usability, and overall user experience.
               </p>
               <p>
 When I'm not coding, I enjoy exploring new technologies, strengthening my problem-solving skills through data structures and algorithms, and continuously improving as a developer by learning and building new projects.

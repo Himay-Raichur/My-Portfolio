@@ -74,8 +74,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-Hi, I'm Himay Raichur — a pre-final year undergraduate at SNIST passionate about building modern web applications using React, Next.js, and TypeScript. I focus on writing clean, scalable code and creating smooth user experiences.
-              </p>
+Hi, I'm Himay Raichur — a pre-final year Computer Science undergraduate at SNIST and an aspiring Full Stack Developer. I specialize in building end-to-end web applications using React, Node.js, and REST APIs, focusing on scalable architecture, performance optimization, and intuitive user experiences.              </p>
             </div>
 
             {/* CTAs */}
