@@ -2,12 +2,37 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
+  title: "AI Code Review Agent",
+  description: "An AI-powered code review platform that analyzes GitHub pull requests and provides intelligent feedback on code quality, bugs, security issues, and best practices. Built with a FastAPI backend, LLM integration, and a modern React interface for seamless developer workflows.",
+  image: "/projects/project11.png",
+  tags: ["FastAPI", "Python", "React", "TypeScript", "LLMs", "SQLite"],
+  link: "#",
+  github: "https://github.com/Himay-Raichur/ai-code-review-agent",
+},
+{
+  title: "SnapLink - URL Shortener & Analytics",
+  description: "A production-ready URL shortening platform that generates short links, tracks click analytics, and provides secure user authentication. Built with Node.js, Express, MongoDB, and REST APIs, featuring analytics dashboards and efficient link management.",
+  image: "/projects/project12.png",
+  tags: ["Node.js", "Express.js", "MongoDB", "JWT", "REST API", "JavaScript"],
+  link: "#",
+  github: "https://github.com/Himay-Raichur/snaplink",
+},
+{
+  title: "Noise Complaint Management API",
+  description: "A production-ready backend REST API for managing noise complaints with secure JWT authentication, role-based authorization, complaint tracking, filtering, analytics, and pagination. Designed using clean architecture principles for scalability and maintainability.",
+  image: "/projects/project10.png",
+  tags: [".NET", "ASP.NET Core", "SQLite", "JWT", "REST API", "Docker"],
+  link: "#",
+  github: "https://github.com/Himay-Raichur/Noise-Complaint-Management-System",
+},
+
+  {
     title: "Glow Beauty Hub",
     description: "A modern beauty and skincare product showcase website built with React. Features a clean UI, product insights pages, reusable components, and smooth navigation for an engaging shopping-style experience. Designed with responsive layout and optimized for performance.",
     image: "/projects/project4.png",
     tags: ["React", "JavaScript", "Vite", "Tailwind CSS", "Responsive Design"],
     link: "https://glow-beauty-hub.vercel.app/",
-    github: "#",
+    github: "https://github.com/Himay-Raichur/glow-beauty-hub",
   },
   {
     title: "Expense Tracker - Full Stack Finance App",

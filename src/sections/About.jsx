@@ -44,9 +44,7 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-I'm a passionate software developer and third-year undergraduate at SNIST with a strong 
-interest in building modern web applications. What 
-began as curiosity about how the web works has grown into hands-on experience developing interactive and user-focused digital solutions using modern frontend technologies.
+I'm a passionate software developer and final-year Computer Science undergraduate at SNIST with a strong interest in building scalable backend systems and modern web applications. What began as curiosity about how software works has evolved into hands-on experience developing production-ready applications using Java, Node.js, Express.js, MongoDB, and REST APIs. I enjoy solving complex problems, designing efficient system architectures, and continuously improving my skills in software engineering and data structures & algorithms
               </p>
               <p>
  I specialize in building end-to-end web applications using React, Next.js, and Node.js, combining intuitive frontend design with robust backend systems. From sleek landing pages to full-stack applications, I focus on writing clean, scalable code while optimizing performance, usability, and overall user experience.
