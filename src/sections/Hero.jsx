@@ -126,7 +126,7 @@ Hi, I'm Himay Raichur — a pre-final year Computer Science undergraduate at SNI
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-3 py-2 animate-float animation-delay-500">
-                  <div className="text-1xl font-bold text-primary">3rd year</div>
+                  <div className="text-1xl font-bold text-primary">final year</div>
                   <div className="text-xs text-muted-foreground">undergrad
 
                   </div>
